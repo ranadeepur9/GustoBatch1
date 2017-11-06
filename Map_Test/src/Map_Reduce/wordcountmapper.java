@@ -1,5 +1,7 @@
 package Map_Reduce;
 
-public class wordcountmapper {
+import org.apache.hadoop.mapred.Mapper;
+
+public class wordcountmapper implements Mapper {
 
 }
